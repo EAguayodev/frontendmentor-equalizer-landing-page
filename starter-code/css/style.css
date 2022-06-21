@@ -176,7 +176,7 @@ footer .link:hover {
     cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1023px) {
     .container {
         background-image: url('/starter-code/assets/bg-main-tablet.png');
         background-repeat: no-repeat;
@@ -238,7 +238,7 @@ footer .link:hover {
     }
 }
 
-@media(max-width: 560px) {
+@media(max-width: 767px) {
     .container {
         background-image: url('/starter-code/assets/bg-main-mobile.png');
         background-repeat: no-repeat;
