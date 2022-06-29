@@ -245,21 +245,21 @@ footer .link:hover {
     }
 
     .logo {
-        margin-left: 4rem;
+        margin-left: 2rem;
     }
 
     h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 58px;
     font-weight: 700;
-    margin: 12rem 0 0 4rem;
+    margin: 5rem 0 0 2rem;
 }
 
 p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     line-height: 30px;
-    margin: 2rem 0 0 4rem;
+    margin: 2rem 0 0 2rem;
 }
 
     .pattern-1 {
@@ -309,7 +309,7 @@ p {
 
     footer .footer-logo {
         margin-bottom: 2rem;
-        margin-left: 1rem;
+        margin-left: -9.5rem;
     }
 
     footer .social-icons {
@@ -317,6 +317,10 @@ p {
         margin-right: -2rem;
         margin-left: 4rem;
         margin-bottom: 5rem;
+    }
+    
+    .icon-section{
+        
     }
 
 }
