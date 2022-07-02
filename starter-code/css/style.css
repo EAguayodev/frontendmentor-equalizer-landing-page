@@ -251,8 +251,9 @@ footer .link:hover {
 
     h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 58px;
+    font-size: 40px;
     font-weight: 700;
+    line-height: 48px;
     margin: 5rem 0 0 2rem;
 }
 
@@ -282,6 +283,14 @@ p {
         height: 546px;
         margin-left: 0.1rem;
     }
+    
+    .download_premium h2 {
+        margin: 1rem 0 0 2rem;
+    }
+    
+    .download_premium p {
+        margin-left: 2rem;
+    }
 
     .apple {
         width: 296px;
@@ -303,6 +312,7 @@ p {
     footer p{
         margin-left: 2rem;
         margin-right: 0rem;
+        font-size: 16px;
     }
 
     footer .row{
