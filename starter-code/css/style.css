@@ -242,6 +242,7 @@ footer .link:hover {
     .container {
         background-image: url('/starter-code/assets/bg-main-mobile.png');
         background-repeat: no-repeat;
+        background-positiion: center top;
     }
 
     .logo {
@@ -273,7 +274,7 @@ p {
         align-items: center;
         width: 375px;
         height: 600px;
-        margin-left: 5rem;
+        margin-left: 0rem;
     }
 
     .download_premium {
