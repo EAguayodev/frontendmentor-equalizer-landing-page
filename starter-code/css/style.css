@@ -19,7 +19,7 @@
 }
 
 .container {
-    background-image: url('/starter-code/assets/bg-main-desktop.png');
+    background-image: url('../assets/bg-main-desktop.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -50,7 +50,7 @@ p {
 
 .dark_row {
     background-color: var(--very-dark-black);
-    background-image: url('/starter-code/assets/bg-pattern-2.svg');
+    background-image: url('../assets/bg-pattern-2.svg');
     background-repeat: no-repeat;
     background-position: top center;
     width: 1110px;
@@ -240,7 +240,7 @@ footer .link:hover {
 
 @media(max-width: 767px) {
     .container {
-        background-image: url('/starter-code/assets/bg-main-mobile.png');
+        background-image: url('../assets/bg-main-mobile.png');
         background-repeat: no-repeat;
         background-positiion: center top;
     }
