@@ -299,6 +299,11 @@ p {
         margin-top: 8rem;
         margin-left: 1rem;
     }
+    
+    footer p{
+        margin-left: 2rem;
+        margin-right: 0rem;
+    }
 
     footer .row{
         margin: 25rem 0 0 0;
@@ -321,7 +326,8 @@ p {
     }
     
     .icon-section{
-        
+        margin-right: 0rem;
+        margin-left: -18rem;
     }
 
 }
