@@ -31,20 +31,30 @@
     justify-content: space-around;
 }
 
-h1 {
+.row h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 70px;
+    font-size: 88px;
     font-weight: 700;
-    margin: 12rem 0 0 7rem;
+    line-height: 88px;
+    position: relative;
+    top: 5rem;
+    left: 7rem;
+    width: 1015px;
 }
 
-p {
+.row p {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 34px;
-    margin: 2rem 0 0 7rem;
+    position: relative;
+    top: 7rem;
+    left: 7rem;
     width: 825px;
+}
+
+.pattern-1{
+    width: 384px;
 }
 
 /************* BLACK CARD SECTION ******************/
