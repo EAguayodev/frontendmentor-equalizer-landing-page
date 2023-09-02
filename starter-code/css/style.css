@@ -89,7 +89,7 @@ p {
 .download_premium p {
     color: var(--light-grayish-orange);
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 26px;
     margin-left: 4rem;
 } 
@@ -289,7 +289,10 @@ p {
     }
     
     .download_premium p {
+        line-height: 28px;
+        font-size: 18px;
         margin-left: 2rem;
+        width: 302px;
     }
 
     .apple {
