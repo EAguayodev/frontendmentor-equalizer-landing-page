@@ -267,16 +267,16 @@ footer .link:hover {
         margin-left: 2rem;
     }
 
-    .row h1 {
+.row h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: 700;
     text-align: center;
     line-height: 48px;
     position: relative;
-    top: 5rem;
+    top: 2rem;
     left: 2rem;
-    width: 235px;
+    width: 327px;
 }
 
 .row p {
@@ -286,8 +286,8 @@ footer .link:hover {
     line-height: 30px;
     text-align: center;
     position:  relative;
-    top: 2rem;
-    left:3rem;
+    top: 3rem;
+    left: 2rem;
     width: 327px;
 }
 
@@ -306,7 +306,7 @@ footer .link:hover {
     }
 
     .download_premium {
-        width: 375px;
+        width: 100%;
         height: 546px;
         margin-left: 0.1rem;
     }
