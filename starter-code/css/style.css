@@ -273,7 +273,9 @@ footer .link:hover {
     font-weight: 700;
     text-align: center;
     line-height: 48px;
-    margin: 5rem 0 0 -3rem
+    position: relative;
+    top: 5rem;
+    left: 2rem;
     width: 235px;
 }
 
@@ -283,7 +285,9 @@ footer .link:hover {
     font-size: 14px;
     line-height: 30px;
     text-align: center;
-    margin: 2rem 0 0 2rem;
+    position:  relative;
+    top: 2rem;
+    left:3rem;
     width: 327px;
 }
 
