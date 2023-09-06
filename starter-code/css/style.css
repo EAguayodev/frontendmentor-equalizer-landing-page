@@ -271,7 +271,6 @@ footer .link:hover {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    text-align: center;
     line-height: 48px;
     position: relative;
     top: 2rem;
@@ -284,7 +283,6 @@ footer .link:hover {
     font-weight: 400;
     font-size: 14px;
     line-height: 30px;
-    text-align: center;
     position:  relative;
     top: 3rem;
     left: 2rem;
