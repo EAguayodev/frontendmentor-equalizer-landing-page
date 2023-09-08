@@ -200,6 +200,21 @@ footer .link:hover {
         background-repeat: no-repeat;
     }
 
+    .row h1{
+        font-size: 64px;
+        line-height: 64px;
+        width: 520px;
+    }
+
+    .row p{
+        font-family: IBM Plex Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        width: 520px;
+    }
+
     .pattern-1 {
         width: 266.67px;
         height: 400px;
@@ -217,7 +232,22 @@ footer .link:hover {
         margin-left: -8rem;
     }
 
+    .download_premium h2{
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        width: 302px;
+    }
+
+    .download_premium p{
+        font-size: 18px;
+        line-height: 28px;
+        width: 302px;
+    }
+
     .download_premium a {
+        width: 296px;
+        height: 61px;
         margin-left: 2.5rem;
     }
 
@@ -241,7 +271,10 @@ footer .link:hover {
     }
 
     footer p {
+        font-size: 16px;
+        line-height: 26px;
         margin-left: 4rem;
+        width: 366px;
     }
 
     .social-icons {
