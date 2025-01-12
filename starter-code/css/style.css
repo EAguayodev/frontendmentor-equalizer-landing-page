@@ -10,7 +10,7 @@
     --soft-cyan: #66e2dc;
     --soft-red: #fa7453;
     --light-orange: #ffb964;
-    --light-grayish-orange:#fcfaf9;
+    --light-grayish-orange: #fcfaf9;
     --very-dark-black: #191826;
 }
 
@@ -33,27 +33,27 @@
 
 .row h1 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 88px;
+    font-size: 5.5rem;
     font-weight: 700;
-    line-height: 88px;
+    line-height: 5.5rem;
     position: relative;
     top: 5rem;
     left: 7rem;
-    width: 1015px;
+    width: 63.438rem;
 }
 
 .row p {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 2.125rem;
     position: relative;
     top: 7rem;
     left: 7rem;
-    width: 825px;
+    width: 51.563rem;
 }
 
-.pattern-1{
+.pattern-1 {
     width: 243px;
     height: 312px;
 }
@@ -80,6 +80,7 @@
     margin-top: -12rem;
     margin-left: 4rem;
 }
+
 /******** light orange premium card *********************/
 .download_premium {
     background-color: var(--soft-red);
@@ -95,21 +96,21 @@
 .download_premium h2 {
     color: var(--light-grayish-orange);
     margin: 1rem 0 0 4rem;
-    font-size: 40px;
-} 
+    font-size: 2.5rem;
+}
 
 .download_premium p {
     color: var(--light-grayish-orange);
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 2.125rem;
     margin-left: 4rem;
-    width: 333px;
-} 
+    width: 20.813rem;
+}
 
 .download_premium span {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
@@ -123,12 +124,12 @@
 .apple {
     background-color: var(--very-dark-black);
     color: var(--light-grayish-orange);
-    width: 333px;
+    width: 20.813rem;
     height: 61px;
     border-radius: 10px;
     text-align: center;
     margin-top: 1rem;
-    
+
 }
 
 .icon-apple {
@@ -146,7 +147,7 @@
 .android {
     background-color: var(--light-grayish-orange);
     color: var(--very-dark-black);
-    width: 333px;
+    width: 20.813rem;
     height: 61px;
     border-radius: 10px;
     text-align: center;
@@ -160,38 +161,34 @@
 footer {
     margin-top: 9rem;
 }
+
 .footer-logo {
     margin-left: 1rem;
     width: 146.093px;
     height: 32px;
 }
 
-footer p {
+footer .f__reserve {
     margin-top: -0.3rem;
     margin-left: -5rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.625rem;
+    width: 22.875rem;
 }
 
 footer span {
     color: var(--very-dark-black);
     font-weight: 700;
-    
+
 }
 
-footer .social-icons {
+footer svg {
     margin: 0 10px;
-}
-
-footer .link:hover {
-    background-color: var(--soft-red);
-    color: var(--light-grayish-orange);
-    text-decoration: none;
-}
-
-.link .social-icons:hover {
-    color: var(--light-grayish-orange);
     cursor: pointer;
+}
+
+svg:hover {
+    fill: var(--soft-red);
 }
 
 @media (max-width: 1023px) {
@@ -200,18 +197,18 @@ footer .link:hover {
         background-repeat: no-repeat;
     }
 
-    .row h1{
+    .row h1 {
         font-size: 64px;
         line-height: 64px;
         width: 520px;
     }
 
-    .row p{
+    .row p {
         font-family: IBM Plex Sans;
-        font-size: 18px;
+        font-size: 1.125rem;
         font-style: normal;
         font-weight: 400;
-        line-height: 28px;
+        line-height: 1.75rem;
         width: 520px;
     }
 
@@ -232,17 +229,17 @@ footer .link:hover {
         margin-left: -8rem;
     }
 
-    .download_premium h2{
-        font-size: 32px;
+    .download_premium h2 {
+        font-size: 2rem;
         font-style: normal;
         font-weight: 700;
-        width: 302px;
+        width: 18.875rem;
     }
 
-    .download_premium p{
+    .download_premium p {
         font-size: 18px;
         line-height: 28px;
-        width: 302px;
+        width: 18.875rem;
     }
 
     .download_premium a {
@@ -270,16 +267,16 @@ footer .link:hover {
         margin-left: 4rem;
     }
 
-    footer p {
-        font-size: 16px;
+    footer .f__reserve {
+        font-size: 1rem;
         line-height: 26px;
         margin-left: 4rem;
-        width: 366px;
+        width: 22.875rem;
     }
 
     .social-icons {
         float: right;
-        
+
     }
 
     .icon-section {
@@ -293,34 +290,34 @@ footer .link:hover {
     .container {
         background-image: url('../assets/bg-main-mobile.png');
         background-repeat: no-repeat;
-        background-positiion: center top;
+        background-position: center top;
     }
 
     .logo {
         margin-left: 2rem;
     }
 
-.row h1 {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    position: relative;
-    top: 2rem;
-    left: 2rem;
-    width: 327px;
-}
+    .row h1 {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        position: relative;
+        top: 2rem;
+        left: 2rem;
+        width: 327px;
+    }
 
-.row p {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    position:  relative;
-    top: 3rem;
-    left: 2rem;
-    width: 327px;
-}
+    .row p {
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 30px;
+        position: relative;
+        top: 3rem;
+        left: 2rem;
+        width: 327px;
+    }
 
     .pattern-1 {
         display: none;
@@ -341,11 +338,11 @@ footer .link:hover {
         height: 546px;
         margin-left: 0.1rem;
     }
-    
+
     .download_premium h2 {
         margin: 1rem 0 0 2rem;
     }
-    
+
     .download_premium p {
         line-height: 28px;
         font-size: 18px;
@@ -370,7 +367,7 @@ footer .link:hover {
         margin-left: 1rem;
     }
 
-    footer .row{
+    footer .row {
         margin: 25rem 0 0 0;
         display: flex;
         flex-direction: column;
@@ -385,7 +382,7 @@ footer .link:hover {
         margin-left: -9.5rem;
     }
 
-    footer .f__reserve{
+    footer .f__reserve {
         font-family: 'IBM Plex Sans', sans-serif;
         font-weight: 400;
         font-size: 14px;
@@ -393,7 +390,7 @@ footer .link:hover {
         position: relative;
         top: -2rem;
         left: -2rem;
-        width: 327px;
+        width: 20.438rem;
     }
 
     footer .social-icons {
@@ -402,8 +399,8 @@ footer .link:hover {
         margin-left: 4rem;
         margin-bottom: 5rem;
     }
-    
-    .icon-section{
+
+    .icon-section {
         margin-right: 0rem;
         margin-left: -18rem;
     }
